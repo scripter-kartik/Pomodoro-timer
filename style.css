@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://getwallpapers.com/wallpaper/full/c/2/b/1007384-best-relaxing-background-pictures-2560x1440-large-resolution.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 90vh;
+}
+h1{
+    color: white;
+    margin: 10px;
+    font-size: 40px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 15rem;
+}
+.Btn{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 30px;
+    background: transparent;
+    border: 3px solid white;
+    margin: 10px;
+    color: white;
+}
+.Btn:hover{
+    background-color: white;
+    color: black;
+}
+#start{
+    margin-left: 56.4rem;
+    margin-top: 30px;
+    width: 120px;
+    height: 45px;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 2px;
+    border: 2px solid white;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+#start:hover{
+    background-color: transparent;
+    color: white;
+}
+.timer{
+    margin-left: 49.3rem;
+    color: black;
+    font-size: 150px;
+    font-weight: bolder;
+}
